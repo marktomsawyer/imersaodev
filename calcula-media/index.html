@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title> Imersão Dev Alura - Aula 01</title>
+
+    <script src="script.js"></script>
+
+    <link rel='stylesheet' src="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!
+        </p>
+
+        <div class="page-subtitle">
+            <h2>Notas parciais</h2>
+
+            <p>
+                <label for="nota1">Nota 1</label>
+                <input type="number" name="nota1" id="nota1">
+            </p>
+            <p>
+                <label for="nota2">Nota 2</label>
+                <input type="number" name="nota2" id="nota2">
+            </p>
+            <p>
+                <label for="nota3">Nota 3</label>
+                <input type="number" name="nota3" id="nota3">
+            </p>
+            <p>
+                <label for="nota4">Nota 4</label>
+                <input type="number" name="nota4" id="nota4">
+
+            </p>
+            <p>
+                <input type="button" onclick="exibeMedia()" value="Calcular">
+            </p>
+            <br> <br>
+            <div>
+                <h3 class="page-title">Média:
+                    <div id="valorMedia"></div>
+                </h3>
+            </div>
+        </div>
+</body>
+
+</html>
